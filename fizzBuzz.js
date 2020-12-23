@@ -11,5 +11,3 @@ const fizzBuzz = (number, multipleOne = 3, multipleTwo = 5) => {
 
   return output.length === 0 ? number : output;
 };
-
-console.log(fizzBuzz(16));
